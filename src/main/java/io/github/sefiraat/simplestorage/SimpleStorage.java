@@ -65,15 +65,15 @@ public class SimpleStorage extends AbstractAddon {
         instance = null;
     }
 
-    @Override
+    /*@Override
     protected Metrics setupMetrics() {
         return new Metrics(this,11622);
-    }
+    }*/
 
     @Override
     protected @Nonnull
     String getGithubPath() {
-        return "Sefiraat/Simple-Storage/master";
+        return "xMikux/Simple-Storage/master";
     }
 
     private void setupSlimefun() {

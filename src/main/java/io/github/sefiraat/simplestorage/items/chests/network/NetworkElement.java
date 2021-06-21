@@ -106,10 +106,10 @@ public class NetworkElement {
 
     public static String networkElementTypeName(NetworkElementType type) {
         switch (type) {
-            case INVENTORY_CELL: return Theme.MAIN + "Simple Storage Cell";
-            case INFINITY_BARREL: return ChatColor.AQUA + "Infinity Storage Unit";
-            case FLUFFY_BARREL: return ChatColor.GOLD + "Fluffy Barrel";
-            default: return "Uh oh, something went a bit wrong...";
+            case INVENTORY_CELL: return Theme.MAIN + "簡單儲存單元";
+            case INFINITY_BARREL: return ChatColor.AQUA + "無限儲存單元";
+            case FLUFFY_BARREL: return ChatColor.GOLD + "Fluffy木桶";
+            default: return "嗯... 出了點問題.";
         }
     }
 

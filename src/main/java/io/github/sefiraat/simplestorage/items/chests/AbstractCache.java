@@ -32,9 +32,9 @@ public abstract class AbstractCache {
             }
             blockMenu.replaceExistingItem(0, new CustomItem(
                     SkullItem.fromBase64(guiNumbers.get(skullID)),
-                    Theme.GUI_HEAD + "Info",
+                    Theme.GUI_HEAD + "資訊",
                     "",
-                    Theme.CLICK_INFO + "Page number : " + page
+                    Theme.CLICK_INFO + "頁數 : " + page
             ));
             return false;
         });
@@ -49,9 +49,9 @@ public abstract class AbstractCache {
             }
             blockMenu.replaceExistingItem(0, new CustomItem(
                     SkullItem.fromBase64(guiNumbers.get(skullID)),
-                    Theme.GUI_HEAD + "Info",
+                    Theme.GUI_HEAD + "資訊",
                     "",
-                    Theme.CLICK_INFO + "Page number : " + page
+                    Theme.CLICK_INFO + "頁數 : " + page
             ));
             return false;
         });

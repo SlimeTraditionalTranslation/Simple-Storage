@@ -16,7 +16,7 @@ public final class GemQuartz extends AbstractGem {
     private final NamespacedKey key;
 
     public GemQuartz(SimpleStorage plugin, Category category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
-        super("Crystal Clear Quartz", category, item, recipeType, recipe, 1);
+        super("透徹石英水晶", category, item, recipeType, recipe, 1);
         this.key = new NamespacedKey(SimpleStorage.inst(), "quartz_crystal");
         register();
         register(plugin);

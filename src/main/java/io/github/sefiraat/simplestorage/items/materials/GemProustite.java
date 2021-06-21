@@ -16,7 +16,7 @@ public final class GemProustite extends AbstractGem {
     private final NamespacedKey key;
 
     public GemProustite(SimpleStorage plugin, Category category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
-        super("Proustite Crystal", category, item, recipeType, recipe, 2);
+        super("普魯斯特水晶", category, item, recipeType, recipe, 2);
         this.key = new NamespacedKey(SimpleStorage.inst(), "proustite_crystal");
         register();
         register(plugin);

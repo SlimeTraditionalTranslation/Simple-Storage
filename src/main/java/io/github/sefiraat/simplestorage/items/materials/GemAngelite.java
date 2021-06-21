@@ -16,7 +16,7 @@ public final class GemAngelite extends AbstractGem {
     private final NamespacedKey key;
 
     public GemAngelite(SimpleStorage plugin, Category category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
-        super("Angelite Crystal", category, item, recipeType, recipe, 5);
+        super("天使水晶", category, item, recipeType, recipe, 5);
         this.key = new NamespacedKey(SimpleStorage.inst(), "angelite_crystal");
         register();
         register(plugin);

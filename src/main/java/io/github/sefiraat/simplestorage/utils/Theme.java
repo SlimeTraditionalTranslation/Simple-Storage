@@ -8,7 +8,7 @@ public final class Theme {
         throw new IllegalStateException("Utility class");
     }
 
-    public static final String PREFIX = "" + ChatColor.GRAY + "[Simple Storage] ";
+    public static final String PREFIX = "" + ChatColor.GRAY + "[簡單儲存] ";
     public static final String SUFFIX = "" + ChatColor.GRAY + "";
     public static final ChatColor WARNING = ChatColor.YELLOW;
     public static final ChatColor ERROR = ChatColor.RED;
@@ -28,10 +28,10 @@ public final class Theme {
     public static final ChatColor ITEM_CHEST = ChatColor.of("#b89b1c");
     public static final ChatColor ITEM_AUGMENT = ChatColor.of("#873dff");
 
-    public static final String LORE_TYPE_CRAFT = ITEM_TYPEDESC + "Crafting Material";
-    public static final String LORE_TYPE_MACHINE = ITEM_TYPEDESC + "Machine";
-    public static final String LORE_TYPE_DROP = ITEM_TYPEDESC + "Drop";
-    public static final String LORE_TYPE_BASE = ITEM_TYPEDESC + "Base Resource";
-    public static final String LORE_TYPE_CHEST = ITEM_TYPEDESC + "Chest";
-    public static final String LORE_TYPE_AUGMENT = ITEM_TYPEDESC + "Augment";
+    public static final String LORE_TYPE_CRAFT = ITEM_TYPEDESC + "製作材料";
+    public static final String LORE_TYPE_MACHINE = ITEM_TYPEDESC + "機器";
+    public static final String LORE_TYPE_DROP = ITEM_TYPEDESC + "掉落";
+    public static final String LORE_TYPE_BASE = ITEM_TYPEDESC + "基礎資源";
+    public static final String LORE_TYPE_CHEST = ITEM_TYPEDESC + "儲物箱";
+    public static final String LORE_TYPE_AUGMENT = ITEM_TYPEDESC + "增強";
 }

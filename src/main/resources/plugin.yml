@@ -1,6 +1,6 @@
 name: SimpleStorage
 author: Sefiraat
-description: An addon that gives a suite of new storage options.
+description: 黏液科技附加 簡單儲存 繁體翻譯版.
 main: io.github.sefiraat.simplestorage.SimpleStorage
 website: https://github.com/Sefiraat/Simple-Storage
 version: ${project.version}
