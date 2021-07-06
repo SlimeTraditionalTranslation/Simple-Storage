@@ -295,7 +295,7 @@ public final class SimpleStorageItemStacks {
     public static final SlimefunItemStack NICROSIL = new SlimefunItemStack(
             "MATERIAL_NICROSIL",
             Material.IRON_INGOT,
-            Theme.ITEM_CRAFTING + "鎳矽合金錠",
+            Theme.ITEM_CRAFTING + "鎳矽鉻合金錠",
             "",
             Theme.PASSIVE + "一種鎳, 矽和鉻的合金.",
             Theme.PASSIVE + "構成熱電偶的一部份.",
