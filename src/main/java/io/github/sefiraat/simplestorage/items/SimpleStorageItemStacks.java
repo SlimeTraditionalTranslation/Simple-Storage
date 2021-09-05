@@ -1,12 +1,12 @@
 package io.github.sefiraat.simplestorage.items;
 
-import io.github.mooy1.infinitylib.presets.LorePreset;
+import io.github.mooy1.infinitylib.machines.MachineLore;
 import io.github.sefiraat.simplestorage.SimpleStorage;
 import io.github.sefiraat.simplestorage.items.machines.DiePress;
 import io.github.sefiraat.simplestorage.items.machines.Enderator;
 import io.github.sefiraat.simplestorage.items.machines.MetalPressBasic;
 import io.github.sefiraat.simplestorage.utils.Theme;
-import me.mrCookieSlime.Slimefun.api.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import org.bukkit.Material;
 
 public final class SimpleStorageItemStacks {
@@ -490,7 +490,7 @@ public final class SimpleStorageItemStacks {
             Theme.PASSIVE + "特定金屬製造模具.",
             Theme.PASSIVE + "模具用於形成其他材料.",
             "",
-            LorePreset.energyPerSecond(DiePress.CONSUMPTION),
+            MachineLore.energyPerSecond(DiePress.CONSUMPTION),
             "",
             Theme.LORE_TYPE_MACHINE
     );
@@ -503,7 +503,7 @@ public final class SimpleStorageItemStacks {
             Theme.PASSIVE + "可以從基礎模具和軟合金",
             Theme.PASSIVE + "製造成形的金屬板.",
             "",
-            LorePreset.energyPerSecond(MetalPressBasic.CONSUMPTION),
+            MachineLore.energyPerSecond(MetalPressBasic.CONSUMPTION),
             "",
             Theme.LORE_TYPE_MACHINE
     );
@@ -517,7 +517,7 @@ public final class SimpleStorageItemStacks {
             Theme.PASSIVE + "扭曲成不同的物品...",
             //Theme.PASSIVE + "different...",
             "",
-            LorePreset.energyPerSecond(Enderator.CONSUMPTION),
+            MachineLore.energyPerSecond(Enderator.CONSUMPTION),
             "",
             Theme.LORE_TYPE_MACHINE
     );
