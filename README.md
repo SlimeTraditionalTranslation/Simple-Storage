@@ -2,8 +2,14 @@
 
 簡單儲存黏液科技的附加, 它添加了新的大容量儲存方塊;
 
-此為**非官方**版本, 請勿在該作者的問題追蹤內回報!
-[原作者連結](https://github.com/Sefiraat/Simple-Storage)
+> 此為**非官方**版本, 請勿在該作者問題追蹤內回報! <br>
+> [原作連結](https://github.com/Sefiraat/Simple-Storage) | [非官方Discord](https://discord.gg/GF4CwjFXT9)
+
+## 下載
+| 非官方繁體中文版 | 官方英文版 |
+| -------- | -------- |
+| 點下方圖片下載 | 點下方圖片下載 |
+| [![Build Status](https://xmikux.github.io/builds/SlimeTraditionalTranslation/Simple-Storage/master/badge.svg)](https://xmikux.github.io/builds/SlimeTraditionalTranslation/Simple-Storage/master) | [![Build Status](https://thebusybiscuit.github.io/builds/Sefiraat/Simple-Storage/master/badge.svg)](https://thebusybiscuit.github.io/builds/Sefiraat/Simple-Storage/master) | 
 
 |圖片 |方塊 |介紹 |
 |:---|:---|:---|
